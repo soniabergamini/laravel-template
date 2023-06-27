@@ -10,6 +10,9 @@ npm remove postcss
 npm i
 npm i bootstrap @popperjs/core
 npm i --D sass
+npm uninstall bootstrap @popperjs/core
+npm install -D tailwindcss
+npx tailwindcss init
 
 ###########################################################################################
 # Configurazione vite (in vite.config.js)
